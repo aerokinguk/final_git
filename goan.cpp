@@ -21,3 +21,14 @@ void bubbleSort(int arr[], int n)
             swap(&arr[j], &arr[j+1]);  
 } 
 //1111111111111111111111111111111111111111111111111
+
+/* Function to print an array */
+void printArray(int arr[], int size)  
+{  
+    int i;  
+    for (i = 0; i < size; i++)  
+        cout << arr[i] << " ";  
+    cout << endl;  
+}  
+
+//222222222222222222222222222222222222222222222222222222
